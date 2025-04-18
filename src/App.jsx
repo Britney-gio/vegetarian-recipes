@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/App.scss";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <Router>
+        <BrowserRouter basename="vegetarian-recipes">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />
-        </Router>      
+        </BrowserRouter>      
       </div>
     </>
   )
