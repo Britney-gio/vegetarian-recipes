@@ -13,12 +13,12 @@ L’obiettivo del progetto è quello di imparare ad utilizzare **React** e le su
 La **Home** è semplice ed intuitiva, qui vengono mostrate delle ricette random con il proprio titolo, immagine, tempo di realizzazione e tipo di "dieta". Inoltre gli utenti hanno la possibilità di cercare con delle **parole chiave** ciò che più preferiscono:
 
 - Schermata Home  
-  ![Screenshot Home](./img/home.png)
+  ![Screenshot Home](./src/assets/img-readme/home.jpg)
 
 Quando l'utente ha voglia di approfondire la ricetta trovata, cliccherà il tasto "More Info" e troverà tutte le informazioni extra come la lista di ingredienti e molto altro...
 
 - Schermata Dettaglio Ricetta  
-  ![Screenshot Ricetta](./img/recipe.png)
+  ![Screenshot Ricetta](./src/assets/img-readme/info.jpg)
 
 ---
 
@@ -46,7 +46,7 @@ API utilizzata:
 
 ## Bye Bye da Giorgia! 👋
 
-![gn logo](img logo)
+![gn logo](./src/assets/img-readme/gn2.jpg)
 
 [![portfolio](https://img.shields.io/badge/My_Portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://britney-gio.github.io/)
 
